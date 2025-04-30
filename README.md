@@ -64,7 +64,123 @@ Ensure that the chatbot reflects the user’s query back to them before providin
 Result: The various types of Prompts are executed successfully.
 
 
+## OUTPUT :
+Design an AI-powered chatbot that is:
+
+Efficient in query handling
+
+Friendly and conversational
+
+Capable of managing diverse support needs (tech help, order status, FAQs)
+
+📌 1. Straightforward Prompts
+Use these to handle clear, direct questions.
+
+🔹 Example 1: Order Tracking
+User Prompt:
+
+"Where is my order?"
+
+AI Chatbot Response:
+
+"Sure! Please provide your order ID so I can check the latest status for you."
+
+🔹 Example 2: Product Troubleshooting
+User Prompt:
+
+"My wireless headphones won't charge."
+
+AI Chatbot Response:
+
+"Let’s fix that! First, can you confirm if the charging cable is working with other devices? Also, are the charging contacts clean?"
+
+📌 2. Tabular Format Prompting
+Use when comparing options or presenting step-by-step instructions.
+
+🔹 Example 3: Product Setup Comparison
+User Prompt:
+
+"How do I set up different types of headphones?"
+
+AI Chatbot Response (in table):
 
 
-# Result: Thus the Prompts were exected succcessfully .
+Headphone Type	Setup Steps
+Wireless Bluetooth	Turn on → Enable pairing mode → Connect via phone
+Wired	Plug into headphone jack → Adjust volume
+USB-C Headphones	Plug into USB-C port → Wait for device detection
+🔹 Example 4: Return Policy Summary
+User Prompt:
+
+"What’s the return policy?"
+
+AI Chatbot Response (table):
+
+
+Item Condition	Return Window	Refund Type
+Unopened	30 days	Full refund
+Opened, unused	15 days	Partial refund
+Used/Damaged	Not eligible	—
+📌 3. Preceding Question Prompting
+Ask a clarifying question before providing help.
+
+🔹 Example 5: Troubleshooting a Device
+User Prompt:
+
+"My smart speaker isn't responding."
+
+AI Chatbot Response:
+
+"Got it. Just to help better, is the speaker not turning on at all, or is it on but not responding to voice commands?"
+
+(Based on reply: tailored instructions follow)
+
+🔹 Example 6: Delayed Delivery
+User Prompt:
+
+"My package hasn't arrived yet."
+
+AI Chatbot Response:
+
+"I'm sorry to hear that! Before I check the status, could you confirm the order number or your registered email?"
+
+🧠 Sample Flow (Combining All Three)
+User:
+
+"My smart vacuum is not connecting to the app."
+
+Chatbot (Preceding Question):
+
+"Thanks for reaching out! Is the vacuum connected to Wi-Fi and powered on?"
+
+User:
+
+"Yes."
+
+Chatbot (Straightforward Prompt):
+
+"Okay. Please try resetting the vacuum and re-adding it in the app. Still not working?"
+
+User:
+
+"No, same issue."
+
+Chatbot (Tabular Format):
+
+
+Step	Action
+1. Reset Device	Hold power + Wi-Fi button for 10 sec
+2. Check Wi-Fi Frequency	Use 2.4 GHz only (not 5 GHz)
+3. Re-pair in App	Open app → Add new device → Follow instructions
+4. Still not working?	Contact support or request a callback
+✅ Summary
+
+Prompting Technique	Use Case
+Straightforward Prompt	Fast, clear answers to direct queries
+Tabular Format	For comparisons, step-by-steps, summaries
+Preceding Question	For better context before troubleshooting
+
+
+## RESULT :
+Thus the Prompts were exected succcessfully .
 
